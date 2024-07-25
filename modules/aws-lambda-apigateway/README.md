@@ -36,8 +36,8 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_env"></a> [env](#input\_env) | The environment. Must be either 'dev', 'dqs' or 'prod'. | `string` | n/a | yes |
-| <a name="input_lambda_arn"></a> [lambda\_arn](#input\_lambda\_arn) | ARN of the lambda function | `string` | n/a | yes |
 | <a name="input_lambda_function_name"></a> [lambda\_function\_name](#input\_lambda\_function\_name) | The name of the lambda function to invoke. | `string` | n/a | yes |
+| <a name="input_lambda_invoke_arn"></a> [lambda\_invoke\_arn](#input\_lambda\_invoke\_arn) | Invoke ARN of the lambda function | `string` | n/a | yes |
 
 ## Outputs
 
