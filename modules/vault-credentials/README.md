@@ -26,7 +26,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_credentials"></a> [credentials](#input\_credentials) | List of credentials for the appropriate IAM user. | <pre>map(<br>    object({<br>      access_key = string,<br>      secret_key = string,<br>  }))</pre> | n/a | yes |
+| <a name="input_credentials"></a> [credentials](#input\_credentials) | List of credentials for the appropriate IAM user. | <pre>map(<br/>    object({<br/>      access_key = string,<br/>      secret_key = string,<br/>  }))</pre> | n/a | yes |
 | <a name="input_metadata"></a> [metadata](#input\_metadata) | Optional metadata to attach to the secret data. | `map(any)` | `null` | no |
 | <a name="input_path_prefix"></a> [path\_prefix](#input\_path\_prefix) | Prefix added to the path where secrets are stored. | `string` | `"dyndns"` | no |
 | <a name="input_role"></a> [role](#input\_role) | Role of the IAM user, must be either 'client' or 'server' and is used to build the KV2 path. | `string` | n/a | yes |
